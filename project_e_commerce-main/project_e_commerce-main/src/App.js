@@ -77,6 +77,7 @@ const App = () => {
         <CssBaseline />
         <Navbar totalItems={cart.total_items} handleDrawerToggle={handleDrawerToggle} />
         <Switch>
+          {/* Route  */}
           <Route exact path="/">
             <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
           </Route>
